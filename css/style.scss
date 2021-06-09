@@ -1,0 +1,120 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: 'Roboto', 'Arial';
+}
+.progress-bar-wrapper {
+  padding: 40px;
+  margin: 1rem;
+}
+.fram-progress-counter {
+  width: 100%;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  color: #fff;
+  font-size: 5rem;
+  line-height: 1;
+  padding-bottom: 2rem;
+  font-weight: 700;
+  .counter {
+     width: 100%;
+     text-align: center;
+     position: absolute;
+     top: -40px;
+     bottom: 0;
+     vertical-align: bottom;
+  }
+  &.increase {
+    opacity: 0.5;
+    color: #fff;
+  }
+}
+.fram-progress-bar {
+  display: flex;
+  height: 20px;
+  background: orangered;
+  border-radius: 0px;
+  position: relative;
+  border-radius: 25px;
+  &__steps {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0px;
+    text-align: left;
+    
+  }
+  &__step {
+    position: relative;
+    flex-basis: 25%;
+    padding: 10px;
+    opacity: 1;
+    transition: all 100ms ease-in-out;
+    
+    &.visible {
+      opacity: 1;
+      transition: all 50ms ease-in-out;
+      color: #fff;
+      text-decoration: line-through;
+    }
+  }
+  &-bar {
+    height: 20px;
+    background: rgba(0,0,0,0.55);
+    width: 0px;
+    position: absolute;
+    border-radius: 0px;
+    left: 0;
+    top: 0;
+    transition: all 2500ms ease-in;
+    .football {
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      animation: bounce 500ms ease-in 5,
+        bounce-done 250ms 2500ms ease-in-out 1;
+      position: absolute;
+      top: -20px;
+      right: -10px;
+      background-image: url('http://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Football-PNG-Transparent-Image-500x500.png');
+      background-size: cover;
+    
+    }
+  }
+}
+
+@keyframes bounce {
+  0% {}
+  50% {
+    transform: translateY(-20px) rotate(180deg);
+  }
+  100% {
+   transform: translateY(0px) rotate(360deg)
+  }
+}
+
+@keyframes smallBounce {
+  0% {}
+  50% {
+    transform: translateY(-10px) rotate(180deg);
+  }
+  100% {
+   transform: translateY(0px) rotate(360deg)
+  }
+}
+
+@keyframes bounce-done {
+  0% {}
+  50% {
+    transform: translateX(20px) translateY(-10px) rotate(180deg);
+  }
+  100% {
+   transform: translateY(0px) rotate(360deg)
+  }
+}
+
+

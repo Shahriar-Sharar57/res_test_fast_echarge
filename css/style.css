@@ -1,0 +1,798 @@
+@font-face{
+    font-family: shararfont;
+    src: url('../fonts/Mukta/Mukta-SemiBold.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+body{
+
+}
+.clr{
+    clear: both;
+}
+.wrapper_full{
+    width: 100%;
+
+}
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+/* common customize css */
+.commonGap{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.commonHeading h4{
+  text-align: center;
+  line-height: 35px;
+  font-size: 26px;
+}
+.commonPara{
+  box-sizing: border-box;
+  padding: 5px 180px;
+}
+.commonPara p{
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  color: #718093;
+}
+.commonPart{
+  padding-bottom: 80px;
+}
+@media screen and (max-width : 1100px){
+  .commonGap{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .commonHeading h4{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+  }
+  .commonPara{
+    box-sizing: border-box;
+    padding: 5px 120px;
+  }
+  .commonPara p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #718093;
+  }
+  .commonPart{
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width : 900px){
+  .commonGap{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .commonHeading h4{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+  }
+  .commonPara{
+    box-sizing: border-box;
+    padding: 5px 65px;
+  }
+  .commonPara p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #718093;
+  }
+  .commonPart{
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width : 700px){
+  .commonGap{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .commonHeading h4{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+  }
+  .commonPara{
+    box-sizing: border-box;
+    padding: 5px 15px;
+  }
+  .commonPara p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #718093;
+  }
+  .commonPart{
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width : 400px){
+  .commonGap{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .commonHeading h4{
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+  }
+  .commonPara{
+    box-sizing: border-box;
+    padding: 5px 15px;
+  }
+  .commonPara p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #718093;
+  }
+  .commonPart{
+    padding-bottom: 15px;
+  }
+}
+/* home  part css starts */
+
+/* home  part css ends*/
+#particles-js{
+  height: 120vh;
+  width: 100wh;
+  background: linear-gradient(to right, #1B1464, #6F1E51);
+}
+@media screen and (min-width:1400px){
+  #partcles-js{
+    height: 100vh;
+    width: 100wh;
+  }
+}
+@media screen and (min-width:400px){
+  #partcles-js{
+    height: 200vh;
+    width: 100wh;
+  }
+}
+.container-fluid{
+  position: absolute;
+}
+nav{
+  height: 100px;
+  width: 100%;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    width: 100vw!important;
+    z-index: 99;
+    top: 0;
+    transition: all linear .3s;
+}
+.navbar-toggler{
+  color: white;
+  border: 1px solid white;
+}
+.navColour{
+  background: rgba(0, 0, 0, 0.4);
+}
+.menuPart{
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+.logoPart{
+  width: 38%;
+}
+.logoPart img{
+  margin-left: 86px;
+}
+.menuItems{
+  width:68wh;
+}
+.menuItems ul{
+  display: flex;
+}
+.menuItems ul li{
+  align-items: center;
+}
+.menuItems ul li a{
+  font-size: 15px;
+  color: #fff;
+  padding: 0px 10px;
+  margin: 0px 7px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all linear .4s;
+}
+.menuItems ul li:last-child{
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.menuItems ul li a:hover{
+  color: #EE5A24;
+}
+.menuItems .navbtn{
+  text-align: center;
+  border-radius: 20px;
+}
+.menuItems .navbtn {
+  padding: 11px 30px;
+  background: #EA2027;
+}
+.loginbutton button{
+  height: 40px;
+  width: 110px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+  background: #EA2027;
+  border: none;
+}
+.loginbutton button a{
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.homeContent{
+  padding-top: 140px;
+  width: 100wh;
+}
+.homeTite h2{
+  font-size: 38px;
+}
+.homeTitle{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.homeTitle .para3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.homeButton{
+  display: flex;
+  flex-direction: row;
+}
+.homeButton .signbtn{
+  margin-right: 5px;
+}
+@media screen and (max-width:1300px) {
+  .navbtn{
+    font-size: 20px;
+  }
+  .menuItems .navbtn {
+    padding: 7px 18px;
+    background: #EA2027;
+  }
+  nav{
+    height: 80px;
+  }
+  .menuItems ul li a{
+    font-size: 13px;
+    color: #fff;
+    padding: 0px 4px;
+    margin: 0px 3px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all linear .4s;
+  }
+}
+@media screen and (max-width:900px){
+
+  nav{
+    height: 80px;
+  }
+  .logoPart img{
+    height: 40px;
+    width: 70x;
+  }
+  .homeContent{
+    padding-top: 80px;
+    width: 100wh;
+  }
+  .homeTitle h2{
+    font-size: 32px;
+  }
+  .homeTitle .para3{
+    padding-top: 24px;
+    padding-bottom: 20px;
+    color: #fff;
+  }
+  .homeImage img{
+    height: 320px;
+    width: 400px;
+  }
+}
+@media screen and (max-width:600px){
+  .logoPart img{
+    height: 40px;
+    width: 50x;
+  }
+  .homeContent{
+    padding-top: 60px;
+    width: 100wh;
+  }
+  .homeTitle h2{
+    font-size: 28px;
+  }
+  .homeTitle .para3{
+    padding-top: 18px;
+    padding-bottom: 14px;
+    color: #fff;
+  }
+  .homeImage img{
+    height: 280px;
+    width: 360px;
+  }
+}
+@media screen and (max-width:400px){
+  nav{
+    height: 60px;
+  }
+  .logoPart img{
+    height: 20px;
+    width: 50x;
+  }
+  .homeContent{
+    padding-top: 40px;
+    width: 100wh;
+  }
+  .homeTitle h2{
+    font-size: 24px;
+  }
+  .homeTitle .para3{
+    padding-top: 16px;
+    padding-bottom: 14px;
+    color: #fff;
+  }
+  .homeImage img{
+    height: 260px;
+    width: 330px;
+  }
+  .loginbutton button{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 25px;
+    background: #EA2027;
+    border: none;
+  }
+  .loginbutton button a{
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+  }
+}
+/* about part css starts */
+
+#aboutPart{
+  height: 160vh;
+  width: 100wh;
+}
+@media screen and (min-width:1400px){
+  #aboutPart{
+    height: 140vh;
+    width: 100wh;
+  }
+}
+.aboutImage img{
+  height: 550px;
+  width: 510px;
+  margin-left: 30px;
+}
+.aboutContent{
+  padding-top: 180px;
+  box-sizing: border-box;
+  padding-right: 100px;
+}
+.aboutContent .ques span{
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.aboutContent h4{
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.aboutContent p{
+  line-height: 24px;
+  font-size: 16px;
+  color: #718093;
+}
+@media screen and (max-width:1100px){
+  #aboutPart{
+    height: 140vh;
+    width: 100wh;
+  }
+  .aboutContent{
+    padding-top: 40px;
+    box-sizing: border-box;
+    padding-right: 80px;
+  }
+  .aboutImage img{
+    height: 350px;
+    width: 400px;
+    margin-left: 40px;
+  }
+  .aboutContent p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #718093;
+  }
+}
+@media screen and (min-width:900px){
+  #aboutPart{
+    height: 160vh;
+    width: 100wh;
+  }
+  .aboutContent{
+    padding-top: 40px;
+    box-sizing: border-box;
+    padding-right: 60px;
+  }
+  .aboutImage img{
+    height: 450px;
+    width: 500px;
+    margin-left: 70px;
+  }
+  .aboutContent p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #718093;
+  }
+}
+@media screen and (min-width:700px){
+  #aboutPart{
+    height: 140vh;
+    width: 100wh;
+  }
+  .aboutContent{
+    padding-top: 40px;
+    box-sizing: border-box;
+    padding-right: 100px;
+  }
+  .aboutImage img{
+    height: 350px;
+    width: 400px;
+  }
+  .aboutContent p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #718093;
+  }
+}
+@media screen and (max-width:400px){
+  #aboutPart{
+    height: 150vh;
+    width: 100wh;
+  }
+  .aboutImage img{
+    height: 250px;
+    width: 300px;
+    margin-left: 20px;
+  }
+}
+/* about part css ends*/
+/* service part css starts */
+#servicePart{
+  background: #f1f2f6;
+}
+.serviceContent{
+  display: flex;
+  flex-direction: column;
+  display: float;
+  padding: 20px 20px;
+}
+.serviceContent .serviceContent1{
+  padding-bottom: 20px;
+}
+.serviceContent card{
+  height: 65px;
+  width: 40%;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.serviceContent .serviceCard{
+  box-sizing: border-box;
+  padding: 20px;
+  box-shadow: 14px 14px 14px 14px #ced6e0;
+}
+.serviceContent .serviceCard h4{
+  padding-bottom: 10px;
+}
+.serviceContent .serviceCard h6{
+  font-size: 16px;
+  color: #1dd1a1;
+}
+.serviceContent .serviceCard p{
+  font-size: 16px;
+  color: #718093;
+}
+@media screen and (min-width:900px) {
+  .serviceContent card{
+    height: 75px;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .serviceContent .serviceCard{
+    box-sizing: border-box;
+    padding: 16px;
+    box-shadow: 14px 14px 14px 14px #ced6e0;
+    margin-bottom: 15px;
+  }
+  .serviceContent .serviceCard h4{
+    font-size: 22px;
+    padding-bottom: 6px;
+  }
+  .serviceContent .serviceCard h6{
+    font-size: 16px;
+    color: #1dd1a1;
+  }
+  .serviceContent .serviceCard p{
+    font-size: 14px;
+    color: #718093;
+  }
+}
+@media screen and (max-width:400px) {
+  .serviceContent card{
+    height: 45px;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .serviceContent .serviceCard{
+    box-sizing: border-box;
+    padding: 16px;
+    box-shadow: 14px 14px 14px 14px #ced6e0;
+    margin-bottom: 15px;
+  }
+  .serviceContent .serviceCard h4{
+    font-size: 18px;
+    padding-bottom: 6px;
+  }
+  .serviceContent .serviceCard h6{
+    font-size: 14px;
+    color: #1dd1a1;
+  }
+  .serviceContent .serviceCard p{
+    font-size: 12px;
+    color: #718093;
+  }
+  .serviceImage img{
+    height: 200px;
+    width: 300px;
+  }
+}
+
+/* service part css ends*/
+/* Payment part css starts */
+.paymentContent .paymentCard{
+  box-sizing: border-box;
+  padding: 20px 45px;
+  border: none;
+  cursor: pointer;
+  transition: all linear.3s;
+  position: relative;
+}
+.paymentContent .cardNumber {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #ff4757;
+  margin-left: 50%;
+  margin-bottom: 50px;
+  transform: translate(-50%);
+  opacity: 0.9;
+  transition: all linear .3s;
+}
+.paymentContent .cardNumber p{
+  text-align: center;
+  padding: 6px;
+  color: #ff4757;
+}
+.paymentContent{
+  position: relative;
+}
+.paymentContent .paymentCard .cardNumber{
+  content: '';
+  top: 100px;
+  left: 50px;
+  position: absolute;
+}
+.paymentContent .cardLine{
+  height: 1px;
+  width: 248px;
+  background: #a4b0be;
+}
+.paymentContent .cardLine{
+  content: '';
+  top: 15px;
+  left: -248px;
+  position: absolute;
+
+}
+.paymentContent .paymentCard:hover{
+  box-shadow: 8px 8px 8px 8px #dfe4ea;
+}
+.paymentContent:hover .cardNumber{
+ color: #fff;
+ background: #ff4757;
+ box-shadow: 2px 2px 2px #a4b0be;
+}
+.paymentContent:hover .cardNumber p{
+ color: #fff;
+}
+.paymentContent:hover .cardLine{
+ background: red;
+}
+.paymentCard h5{
+  font-size: 26px;
+}
+.paymentCard .cardPara p{
+  font-size: 16px;
+  color: #2f3542;
+  padding: 2px 2px;
+  text-align: center;
+}
+@media screen and (min-width:1400px) {
+  .paymentContent .paymentCard{
+    box-sizing: border-box;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all linear.3s;
+    position: relative;
+  }
+  .paymentCard h5{
+    font-size: 32px;
+  }
+}
+@media screen and (max-width:400px) {
+  .paymentContent .paymentCard{
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: all linear.3s;
+    position: relative;
+  }
+  .paymentCard h5{
+    font-size: 20px;
+  }
+}
+/* payment part css ends */
+
+/* Question part css starts*/
+#questionPart{
+  width: 100wv;
+  background: #f7f1e3;
+  background-position: cover;
+
+}
+.quesContents{
+  background: #fff;
+  border-radius: 5%;
+}
+.mainquesContent{
+  height: 60px;
+  width: 100%;
+}
+.QuesImage img{
+  height: 450px;
+  width: 550px;
+}
+.quesContents .quesAns a{
+  height:50px;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: left;
+  background: #eb4d4b;
+  border: none;
+}
+.quesContents .quesAns .btn:active{
+  background-color: #eb4d4b;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+.btn-primary.active, .btn-primary:active {
+    box-shadow: none;
+}
+.quesContents .quesAns .quesCollapse{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  padding-top: 0;
+  background: #fff;
+}
+@media screen and (max-width:1400px) {
+  .QuesImage img{
+    height: 450px;
+    width: 550px;
+  }
+}
+@media screen and (min-width:1400px) {
+  .QuesImage img{
+    height: 350px;
+    width: 450px;
+  }
+}
+@media screen and (max-width:400px) {
+  .QuesImage img{
+    height: 250px;
+    width: 350px;
+  }
+}
+/* Question part css starts */
+/* footer part css starts */
+#footerPart{
+
+}
+.footerImage ul li img{
+  height: 100px;
+  width: 300px;
+}
+.footerPart ul li p{
+  font-size: 22px;
+  font-weight: 500;
+  color: #485460;
+}
+.footerPart .footerUl2 li{
+  margin-bottom: 10px;
+}
+.footerPart .footerUl1 li a{
+  color: #808e9b;
+  text-decoration: none;
+}
+.footerPart .footerUl3 li{
+  margin-bottom: 10px;
+}
+.footerPart ul li a{
+  font-size: 16px;
+  color:#808e9b;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+.footerPart ul li a i{
+  height: 30px;
+  width: 30px;
+  background: blue;
+  border-radius: 10%;
+  font-size: 16px;
+  color:white;
+  padding: 7px;
+  padding-bottom: 20px;
+  transition: all linear .3s;
+}
+.footerPart ul li a i:hover{
+  background: red;
+}
+/* footer part css ends */
